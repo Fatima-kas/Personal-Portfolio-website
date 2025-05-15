@@ -4,9 +4,12 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-image: url(images/bck2.jpg);
-    background : #080808 ;
+    
     color: #fff;
 }
 #header{
@@ -326,7 +329,7 @@ nav .fas{
 }
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(images/background-mob.jpg);
+        background-image: url(images/bck2.jpg);
     }
     .header-text{
         margin-top: 100%;
